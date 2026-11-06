@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechWorld: conoce el mundo de la tecnologia, redes, internet y seguridad informatica.">
+    <title>TechWorld | Mundo Tecnologico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU DE NAVEGACION -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tech<span>World</span></div>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#redes">Redes</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- PORTADA PRINCIPAL -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Bienvenido a <span>TechWorld</span></h1>
+
+            <p>
+                Explora el mundo de la tecnologia, descubre como funciona
+                Internet y conoce las herramientas que conectan al mundo.
+            </p>
+
+            <a href="#tecnologia" class="btn">Explorar ahora</a>
+        </div>
+    </section>
+
+    <!-- SECCION TECNOLOGIA -->
+    <section class="section" id="tecnologia">
+        <h2>El mundo de la tecnologia</h2>
+
+        <p class="section-description">
+            La tecnologia transforma nuestra manera de comunicarnos,
+            trabajar, aprender y acceder a la informacion.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Componentes electronicos">
+                <h3>Computadoras</h3>
+                <p>
+                    Dispositivos electronicos que procesan informacion
+                    y permiten realizar diferentes tareas.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600" alt="Servidores informaticos">
+                <h3>Servidores</h3>
+                <p>
+                    Equipos que almacenan informacion y ofrecen
+                    servicios a otros dispositivos conectados.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600" alt="Red mundial de conexiones">
+                <h3>Internet</h3>
+                <p>
+                    Red mundial que permite conectar dispositivos
+                    e intercambiar informacion.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION DE REDES -->
+    <section class="section networks" id="redes">
+        <h2>Redes e Internet</h2>
+
+        <p class="section-description">
+            Conoce algunos de los conceptos fundamentales
+            que permiten el funcionamiento de Internet.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>DNS</h3>
+                <p>
+                    Sistema que traduce los nombres de dominio
+                    en direcciones IP.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Direccion IP</h3>
+                <p>
+                    Identificador numerico que permite localizar
+                    dispositivos dentro de una red.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>HTTP y HTTPS</h3>
+                <p>
+                    Protocolos utilizados para transferir informacion
+                    entre los navegadores y los servidores web.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="section" id="galeria">
+        <h2>Galeria tecnologica</h2>
+
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=700" alt="Trabajo con tecnologia">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700" alt="Computadora portatil">
+            <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=700" alt="Equipo informatico">
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact" id="contacto">
+        <h2>Contactanos</h2>
+
+        <p>Dejanos tu comentario o consulta.</p>
+
+        <form id="contactForm">
+            <input type="text" id="nombre" placeholder="Tu nombre" required>
+
+            <input type="email" id="correo" placeholder="Tu correo electronico" required>
+
+            <textarea id="mensaje" placeholder="Escribe tu comentario" required></textarea>
+
+            <button type="submit" class="btn">Enviar comentario</button>
+        </form>
+
+        <div id="resultado"></div>
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <p>© 2026 TechWorld - Mundo Tecnologico</p>
+        <p>Proyecto educativo de Ingenieria en Sistemas</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
